@@ -1,0 +1,230 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background: Lavender;
+}
+
+a {
+  color: PapayaWhip;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/* Clases Generales */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+ /* Navbar */
+ #navbar {
+   background: Thistle;
+   color: SlateBlue;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: DarkMagenta;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: Indigo;
+}
+
+
+.text-primary {
+  color:PeachPuff;
+}
+
+.lead {
+  font-size: 20px; /*--tamaño letra*/
+}
+
+#welcome {
+  background: url('/Imagenes/encabezado.jpg') no-repeat center center/cover;
+  height: 500px; /*tamaños del fondo*/
+}
+
+#welcome .welcome-content {
+  color: PeachPuff;
+  text-align: right ;
+  padding-top: 350px;
+  padding-right: 300px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+
+.btn-medium {
+  background: Indigo;
+  color: #215b33;
+}
+
+.bg-dark {
+  background: DarkOrchid;
+  color:PaleGoldenrod;
+}
+
+.bg-light {
+  background: Lavender;
+  color: BlueViolet;
+}
+
+.bg-primary {
+  background: Thistle;
+  color: BlueViolet;
+}
+
+#home-info {
+  height: 400px;
+}
+
+
+#home-info .info-content {
+  float: left;
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-second {
+  float: right;
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px /*recortar espacio de abajo hacia arriba*/
+}
+
+#home-info .info-second p {
+  padding-bottom: 30px /*recortar espacio de abajo hacia arriba*/
+}
+
+.clr {
+  clear: both;
+}
+
+/* Pie de página */
+#main-footer {
+  text-align: center;
+  background: Plum;
+  color: DarkMagenta;
+  padding: 10px;
+}
+
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+.box {
+  float: left;
+  width: 25%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+/* PASO 13---*/
+
+.clr {
+  clear: both;
+}
+
+
+#menu-info {
+  height: 600px;
+}
+
+
+#menu-info .info-content {
+  float: left;
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#menu-info .info-second {
+  float: right;
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#menu-info .info-content p {
+  padding-bottom: 30px /*recortar espacio de abajo hacia arriba*/
+}
+
+#menu-info .info-second p {
+  padding-bottom: 30px /*recortar espacio de abajo hacia arriba*/
+}
